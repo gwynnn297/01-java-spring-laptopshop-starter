@@ -1,6 +1,19 @@
 package vn.hoidanit.laptopshop.domain;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+
+//jpa: ghi data, ghi data
+//biến class thành table thì sử dụng entity
+@Entity
 public class User {
+    // sau khi thêm entity và nhận id thì ở db sẽ tự động tạo bảng User có các thuộc
+    // Tính bên dưới
+    @Id
+    // Trường này để ID tự động tăng
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     private String email;
     private String password;

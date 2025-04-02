@@ -30,7 +30,7 @@
                 <form:form method="post" action="/admin/user/create1 " modelAttribute="newUser">
                     <div class="mb-3">
                       <label class="form-label">Email:</label>
-                      <!-- path này tương đương với các các biến trong model và truyền dữ liệu này về đó -->
+                      <!-- path này tương đương với các các biến trong model và truyền dữ liệu này về đó  -->
                       <form:input type="email" class="form-control" path="email"/>
                     </div>
                     <div class="mb-3">
