@@ -27,7 +27,7 @@
                 <h3>Create a user</h3>
                 <hr />
                 <!-- modelAttribute: convert dữ liệu từ view trả cho controller -->
-                <form:form method="post" action="/admin/user/create1 " modelAttribute="newUser">
+                <form:form method="post" action="/admin/user/create " modelAttribute="newUser">
                     <div class="mb-3">
                       <label class="form-label">Email:</label>
                       <!-- path này tương đương với các các biến trong model và truyền dữ liệu này về đó  -->

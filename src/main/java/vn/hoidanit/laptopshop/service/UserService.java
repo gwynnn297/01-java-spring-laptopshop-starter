@@ -23,7 +23,7 @@ public class UserService {
         return this.userRepository.findAll();
     }
 
-    public List<User> findAllUserByEmail(String emai) {
-        return this.userRepository.findByEmail(emai);
+    public List<User> findAllUserByEmail(String email) {
+        return this.userRepository.findByEmail(email);
     }
 }
